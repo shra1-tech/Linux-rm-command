@@ -5,7 +5,7 @@
 ##alias rm=/usr/bin/rm-i.sh make this script as alias to rm command.
 ##you can watch my yt vid for better understanding: "https://youtu.be/-sloFL0fWS4?si=QvHXogAcsRvGZpxI"
 
-if [ "{$1}" == "{$rf}" ]
+if [ "{$1}" == "{-rf}" ]
   then
       echo "removing rf swiches from the command" 
 	  shift 1
